@@ -127,7 +127,8 @@ footer{
   padding-right: 10px;
 }
 .top-wrapper {
-  height :450px;
+  height :500px;
+  weight : 10px;
   padding : 10px 10px;
   background-image: url(school2.jpg);
   background-size: cover;
@@ -167,8 +168,11 @@ footer{
 .content {
   float: left;
   width: 33%;
-  padding-left: 50px;
-  padding-top: 50px;
+  height: 300px;
+  padding: 80px;
+}
+.content.active{
+  background-color:white;
 }
 .content p{
   font-size: 25px;
